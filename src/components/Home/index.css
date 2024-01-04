@@ -1,0 +1,107 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding-left: 70px;
+  }
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  margin-top: 8px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 80vh;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-container {
+    padding: 50px;
+  }
+}
+
+.failure-image {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-image {
+    width: 36%;
+  }
+}
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-heading {
+    font-size: 30px;
+  }
+}
+
+.description-failure {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  font-weight: 600;
+  margin-top: 0px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .description-failure {
+    font-size: 18px;
+  }
+}
+
+.button-retry {
+  padding: 12px;
+  color: #ffffff;
+  background-color: #4656a1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.un-order-course-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .un-order-course-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
